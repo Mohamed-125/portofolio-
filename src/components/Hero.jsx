@@ -23,7 +23,7 @@ const Hero = () => {
             <span className="text-primary font-bold">
               <TypewriterComponent
                 options={{
-                  strings: ["Full Stack Developer", "Web Degsiner"],
+                  strings: ["Full Stack Developer", "Web Designer"],
                   autoStart: true,
                   loop: true,
                 }}
@@ -33,9 +33,10 @@ const Hero = () => {
         </Reveal>
         <Reveal>
           <p className="mb-6">
-            I've spent the last 5 years building and scaling software for some
-            pretty cool companies. I also teach people to paint online (incase
-            you've got an empty canvas layin' around 🎨). Let's connect!
+            I've spent the last 2 years learning , and building full stack
+            applications and web design I enjoy bulding cool projects and open
+            to learn new technoliges <br />
+            Let's connect!
           </p>
         </Reveal>
         <Reveal>
