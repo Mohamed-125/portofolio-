@@ -49,7 +49,7 @@ function App() {
 
   return (
     <div className=" bg-background-light ">
-      <div className="blob"></div>
+      <div className="blob hidden sm:block"></div>
       <div className="flex flex-col min-h-[86vh] mt-4">
         <Navbar />
         <Hero />

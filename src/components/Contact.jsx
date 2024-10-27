@@ -12,10 +12,10 @@ const Contact = () => {
         <Reveal centered={true}>
           <p>Send me an email if you want to connect!</p>
         </Reveal>
-        <Reveal>
+        <Reveal centered={true}>
           <a
             href="mailto:mohamedibarhim.fed@gmail.com"
-            className="font-bold text-xl hover:text-primary transition-all duration-200 cursor-pointer"
+            className="font-bold text-xl break-all text-center hover:text-primary transition-all duration-200 cursor-pointer"
           >
             mohamedibarhim.fed@gmail.com
           </a>

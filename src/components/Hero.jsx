@@ -8,13 +8,14 @@ const Hero = () => {
     <div className="container flex-1 grid items-center">
       <div className="max-w-[680px] text-text">
         <Reveal>
-          <h1 className="title ">
-            Hey, I'm Mohamed<span className="text-primary">.</span>
+          <h1 className="title">
+            Hey, I'm Mohamed
+            <span className="text-primary">.</span>
           </h1>
         </Reveal>
         <Reveal>
           <h3
-            className="text-3xl mb-3  flex gap-2"
+            className="text-3xl mb-3  flex flex-wrap gap-2"
             style={{
               fontSize: "clamp(0.7rem, 12vw, 2rem)",
             }}
