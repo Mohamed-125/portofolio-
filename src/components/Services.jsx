@@ -16,15 +16,15 @@ const Services = () => {
   ];
 
   return (
-    <div className="container text-text py-20">
+    <div className="container py-20 text-text">
       <h2 className="title">Services</h2>
-      <div className="flex flex-wrap  gap-4">
+      <div className="flex flex-wrap gap-4">
         {Services.map((service, index) => (
-          <div className="border-text cursor-pointer title-stroke group min-w-[270px] flex-1 border rounded-lg py-5 px-4">
+          <div className="border-text cursor-pointer title-stroke group min-w-[230px] flex-1 border rounded-lg py-5 px-4">
             <h3 className=" text-5xl font-bold mb-2 text-[transparent]">
               0{index + 1}
             </h3>
-            <h4 className="text-2xl mb-3  font-bold">{service.title}</h4>
+            <h4 className="mb-3 text-2xl font-bold">{service.title}</h4>
             <p className="text-[17.5]px">{service.description}</p>
           </div>
         ))}
