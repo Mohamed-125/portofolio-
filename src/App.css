@@ -1,0 +1,50 @@
+.btn-hover {
+  position: relative;
+  --scaleBefore: 0;
+  overflow: hidden;
+  z-index: 2;
+  color: #0aff9d;
+}
+
+.btn-hover::before {
+  content: "";
+  background-color: #0aff9d;
+  position: absolute;
+  inset: 0;
+  transform-origin: top left;
+  transform: scale(var(--scaleBefore));
+  z-index: -1;
+}
+
+.reveal-div {
+  --width: 100%;
+  max-width: fit-content;
+  position: relative;
+}
+
+.reveal-div::before {
+  content: "";
+  display: block;
+  width: var(--width);
+  background-color: #0aff9d;
+  z-index: 100;
+  position: absolute;
+  height: 100%;
+  right: 0;
+}
+
+.title {
+  font-size: clamp(1.5rem, 12vw, 4.2rem);
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.blob {
+  background: radial-gradient(#0aff9d, #ffffff);
+  opacity: 35%;
+  position: absolute;
+  filter: blur(90px);
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
