@@ -36,7 +36,7 @@
 .title {
   font-size: clamp(1.5rem, 12vw, 4.2rem);
   font-weight: bolder;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
 }
 
 .blob {
