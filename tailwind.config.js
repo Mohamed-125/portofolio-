@@ -11,11 +11,10 @@ export default {
       "background-dark-opacity": "var(--background-dark-opacity)",
       white: "#FFFFFF",
     },
+
     container: {
       center: true,
       padding: "2rem", // Adds default padding to the container
     },
   },
-
-  plugins: [],
 };

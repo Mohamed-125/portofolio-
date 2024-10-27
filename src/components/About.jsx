@@ -7,6 +7,7 @@ const About = () => {
     "TypeScript",
     "HTML",
     "CSS",
+    "tailwind",
     "React",
     "NodeJS",
     "Express",
@@ -57,7 +58,7 @@ const About = () => {
 
           {/* using learning right now */}
           <Reveal className="">
-            <h4 className="text-2xl font-bold mb-4">Use at work</h4>
+            <h4 className="text-2xl font-bold mb-4">Currently Learning </h4>
             <div className="flex gap-2 flex-wrap">{learningRightNowSkills}</div>
           </Reveal>
         </div>

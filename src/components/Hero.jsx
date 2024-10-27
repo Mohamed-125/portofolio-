@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "./Reveal";
 import TypewriterComponent from "typewriter-effect";
-
+import dotGrid from "../assets/dot-grid.png";
 const Hero = () => {
   return (
-    <div className="container flex-1 grid items-center">
+    <div className="container flex-1 grid items-center relative overflow-hidden">
       <div className="max-w-[680px] text-text">
         <Reveal>
           <h1 className="title">

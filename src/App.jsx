@@ -7,6 +7,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Services from "./components/Services";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -49,7 +50,7 @@ function App() {
 
   return (
     <div className=" bg-background-light ">
-      <div className="blob hidden sm:block"></div>
+      <div className="blob  pointer-events-none hidden sm:block"></div>
       <div className="flex flex-col min-h-[86vh] mt-4">
         <Navbar />
         <Hero />
@@ -57,7 +58,10 @@ function App() {
       <hr className="text-white opacity-50 mb-14"></hr>
       <About />
       <hr className="text-white  opacity-50"></hr>
+      <Services />
+      <hr className="text-white  opacity-50"></hr>
       <Projects />
+      <hr className="text-white  opacity-50"></hr>
       <Contact />
     </div>
   );
